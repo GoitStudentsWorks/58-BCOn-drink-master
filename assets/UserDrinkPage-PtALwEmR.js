@@ -1,4 +1,4 @@
-import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S as C,e as O,m as H,R as N,T as U,L as _,U as A,V as G}from"./index-EuOxoTNc.js";import{a as J,j as Y,i as q,k as K,e as Q}from"./selectors-oUKmS57u.js";import{C as V}from"./CircleBg-YlforTFe.js";import{M as X}from"./Modal-h1LsS8MW.js";const Z=o.div`
+import{u as o,d as i,a as s,l as n,P as w,b as c,s as $,j as t,f as W,g as m,S as E,e as R,m as H,R as N,T as U,L as _,U as A,V as G}from"./index-jQ59i6Sr.js";import{a as J,j as Y,i as q,k as K,e as Q}from"./selectors-5JNnC0jY.js";import{C as V}from"./CircleBg-uxhrPIxQ.js";import{M as X}from"./Modal-tN0ujeuB.js";const Z=o.div`
   margin-bottom: 18px;
 
   @media ${i.tablet} {
@@ -99,14 +99,14 @@ import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S a
     gap: 35px;
     padding-bottom: 100px;
   }
-`,re=o.li`
+`,ae=o.li`
   width: 157px;
   height: 175px;
   @media ${i.tablet} {
     width: 220px;
     height: 258px;
   }
-`,ae=o.div`
+`,re=o.div`
   border-radius: 8px;
   width: 157px;
   height: 157px;
@@ -131,7 +131,7 @@ import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S a
   }
   @media ${i.desktop} {
   }
-`,ce=o.div`
+`,le=o.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -145,7 +145,7 @@ import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S a
   }
   @media ${i.desktop} {
   }
-`,le=o(y)`
+`,ce=o(y)`
   color: ${({theme:e})=>e==="dark"?s.colors.transp:n.colors.transp};
 `,pe=o.h3`
   color: ${({theme:e})=>e==="dark"?s.colors.transp:n.colors.transp};
@@ -159,7 +159,7 @@ import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S a
   }
   @media ${i.desktop} {
   }
-`,T=({ingredientsArray:e})=>{const d=l(j),c=l(J),f=window.innerWidth<768,b=window.innerWidth>=768&&window.innerWidth<1440,v=r=>{if(c.length!==0)return c==null?void 0:c.find(h=>r.toLowerCase()===h.title.toLowerCase())[f?"thumbSmall":b?"thumbMedium":"ingredientThumb"]};return t.jsxs("div",{children:[t.jsx(pe,{theme:d,children:"Ingredients"}),t.jsx(ne,{children:e==null?void 0:e.map(({title:r,measure:h})=>t.jsxs(re,{children:[t.jsx(ae,{children:t.jsx(de,{src:v(r),alt:r})}),t.jsxs(ce,{children:[t.jsx(y,{theme:d,children:r}),t.jsx(le,{theme:d,children:h})]})]},r))})]})};T.propTypes={ingredientsArray:w.array};const he="/project-drink-master/assets/three-cocktails-mobile@1x-Db068_xD.jpg",xe="/project-drink-master/assets/three-cocktails@1x-TzhNJt-O.jpg",me=o.div`
+`,T=({ingredientsArray:e})=>{const d=c($),l=c(J),f=window.innerWidth<768,b=window.innerWidth>=768&&window.innerWidth<1440,v=a=>{if(l.length!==0)return l==null?void 0:l.find(h=>a.toLowerCase()===h.title.toLowerCase())[f?"thumbSmall":b?"thumbMedium":"ingredientThumb"]};return t.jsxs("div",{children:[t.jsx(pe,{theme:d,children:"Ingredients"}),t.jsx(ne,{children:e==null?void 0:e.map(({title:a,measure:h})=>t.jsxs(ae,{children:[t.jsx(re,{children:t.jsx(de,{src:v(a),alt:a})}),t.jsxs(le,{children:[t.jsx(y,{theme:d,children:a}),t.jsx(ce,{theme:d,children:h})]})]},a))})]})};T.propTypes={ingredientsArray:w.array};const he="/58-BCOn-drink-master/assets/three-cocktails-mobile@1x-Db068_xD.jpg",xe="/58-BCOn-drink-master/assets/three-cocktails@1x-TzhNJt-O.jpg",me=o.div`
   display: flex;
   flex-direction: column-reverse;
   gap: 40px;
@@ -213,4 +213,4 @@ import{u as o,d as i,a as s,l as n,P as w,b as l,s as j,j as t,f as B,g as m,S a
   @media ${i.desktop} {
     width: 549px;
   }
-`,S=({instructions:e})=>{const d=l(j);return t.jsxs("div",{children:[t.jsx(be,{theme:d,children:"Recipe Preparation"}),t.jsxs(me,{children:[t.jsx(ge,{}),t.jsx(ke,{theme:d,children:e})]})]})};S.propTypes={instructions:w.string};const ue="/project-drink-master/assets/Motivation-mob3@2x-1EibcH2o.jpg",fe="/project-drink-master/assets/motivation3@2x-WSNNf0lv.jpg",ve="/project-drink-master/assets/Motivation-mob2@2x-i2WMUKAM.jpg",je="/project-drink-master/assets/motivation2@2x-3J2W25Lp.jpg",Se=()=>{const e=B.useMediaQuery({query:"(max-width: 767px)"}),[d,c]=m.useState(""),[f,b]=m.useState(!1),[v,r]=m.useState(""),h=()=>{b(!0)},D=()=>{b(!1)},p=l(j),{drinkId:k}=C(),x=O(),a=l(Y),u=l(q),F=l(K),M=l(Q),[$,z]=m.useState(!1),I=()=>{x(A(k)).then(g=>{const{sendFirstFavGreeting:P,sendTenthFavGreeting:W}=g.payload,E=P===!0,R=W===!0;E&&(h(),r("Wow! You have added the first recipe to your favorites!"),c(e?ue:fe)),R&&(h(),r("Wow! You have added 10 recipes to your favorites!"),c(e?ve:je))}).catch(g=>{console.error("Error in addFavoriteDrinkThunk:",g)})},L=()=>{x(G(k))};return m.useEffect(()=>{x(H()),x(N({page:1,limit:1e3})),x(U(k)),window.scrollTo({top:0})},[x,k]),m.useEffect(()=>{z(!!(u!=null&&u.find(g=>g._id===a._id)))},[a,u]),t.jsxs(t.Fragment,{children:[t.jsx(V,{}),M?t.jsx(_,{}):t.jsxs(t.Fragment,{children:[t.jsxs(Z,{children:[t.jsxs("div",{children:[t.jsx(ee,{theme:p,children:a.drink}),t.jsx(te,{theme:p,children:`${a.glass} / ${a.alcoholic}`}),t.jsx(ie,{theme:p,children:a.description}),t.jsx(oe,{theme:p,onClick:$?L:I,disabled:F,children:$?"Remove from favorite drinks":"Add to favorite drinks"})]}),t.jsx(se,{theme:p,src:a.drinkThumb})]}),t.jsx(T,{theme:p,ingredientsArray:a?a.ingredients:[]}),t.jsx(S,{theme:p,instructions:a.instructions}),t.jsx(X,{isOpen:f,onClose:()=>{D(),r(""),c("")},message:v,background:d})]})]})};export{Se as default};
+`,S=({instructions:e})=>{const d=c($);return t.jsxs("div",{children:[t.jsx(be,{theme:d,children:"Recipe Preparation"}),t.jsxs(me,{children:[t.jsx(ge,{}),t.jsx(ke,{theme:d,children:e})]})]})};S.propTypes={instructions:w.string};const ue="/58-BCOn-drink-master/assets/Motivation-mob3@2x-1EibcH2o.jpg",fe="/58-BCOn-drink-master/assets/motivation3@2x-WSNNf0lv.jpg",ve="/58-BCOn-drink-master/assets/Motivation-mob2@2x-i2WMUKAM.jpg",$e="/58-BCOn-drink-master/assets/motivation2@2x-3J2W25Lp.jpg",Se=()=>{const e=W.useMediaQuery({query:"(max-width: 767px)"}),[d,l]=m.useState(""),[f,b]=m.useState(!1),[v,a]=m.useState(""),h=()=>{b(!0)},D=()=>{b(!1)},p=c($),{drinkId:k}=E(),x=R(),r=c(Y),u=c(q),F=c(K),M=c(Q),[j,z]=m.useState(!1),I=()=>{x(A(k)).then(g=>{const{sendFirstFavGreeting:C,sendTenthFavGreeting:O}=g.payload,L=C===!0,P=O===!0;L&&(h(),a("Wow! You have added the first recipe to your favorites!"),l(e?ue:fe)),P&&(h(),a("Wow! You have added 10 recipes to your favorites!"),l(e?ve:$e))}).catch(g=>{console.error("Error in addFavoriteDrinkThunk:",g)})},B=()=>{x(G(k))};return m.useEffect(()=>{x(H()),x(N({page:1,limit:1e3})),x(U(k)),window.scrollTo({top:0})},[x,k]),m.useEffect(()=>{z(!!(u!=null&&u.find(g=>g._id===r._id)))},[r,u]),t.jsxs(t.Fragment,{children:[t.jsx(V,{}),M?t.jsx(_,{}):t.jsxs(t.Fragment,{children:[t.jsxs(Z,{children:[t.jsxs("div",{children:[t.jsx(ee,{theme:p,children:r.drink}),t.jsx(te,{theme:p,children:`${r.glass} / ${r.alcoholic}`}),t.jsx(ie,{theme:p,children:r.description}),t.jsx(oe,{theme:p,onClick:j?B:I,disabled:F,children:j?"Remove from favorite drinks":"Add to favorite drinks"})]}),t.jsx(se,{theme:p,src:r.drinkThumb})]}),t.jsx(T,{theme:p,ingredientsArray:r?r.ingredients:[]}),t.jsx(S,{theme:p,instructions:r.instructions}),t.jsx(X,{isOpen:f,onClose:()=>{D(),a(""),l("")},message:v,background:d})]})]})};export{Se as default};
