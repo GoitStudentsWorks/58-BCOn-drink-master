@@ -10,7 +10,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Provider store={store}>
-    <BrowserRouter basename="58-BCOn-drink-master">
+    <BrowserRouter basename="/58-BCOn-drink-master/">
       <PersistGate loading={null} persistor={persistor}>
         <App />
         <ToastContainer
